@@ -1,0 +1,6 @@
+Create Module command:
+    nest g module user
+
+Controllers: responsible to handle incoming requests and responses to the client.
+
+Providers & Services: responsible for executing the business logic.
