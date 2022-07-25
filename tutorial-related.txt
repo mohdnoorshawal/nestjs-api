@@ -4,3 +4,41 @@ Create Module command:
 Controllers: responsible to handle incoming requests and responses to the client.
 
 Providers & Services: responsible for executing the business logic.
+
+Command to check docker version: 
+    docker --version
+
+Command to add Prisma:
+    npm add -D prisma
+    npm add @prisma/client
+
+Command to run Prisma CLI:
+    npx prisma init
+
+Command to run docker:
+    docker ps
+
+Command to run Prisma Help
+    npx prisma --help
+
+Commands for prisma [command]
+
+            init   Set up Prisma for your app
+        generate   Generate artifacts (e.g. Prisma Client)
+              db   Manage your database schema and lifecycle
+         migrate   Migrate your database
+          studio   Browse your data with Prisma Studio
+          format   Format your schema
+
+Flags
+
+     --preview-feature   Run Preview Prisma commands
+  $ prisma migrate dev
+
+  Pull the schema from an existing database, updating the Prisma schema
+  $ prisma db pull
+
+  Push the Prisma schema state to the database
+  $ prisma db push
+
+  
