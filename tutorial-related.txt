@@ -41,4 +41,7 @@ Flags
   Push the Prisma schema state to the database
   $ prisma db push
 
-  
+  Command to create Service file without spec:
+    nest g service prisma --no-spe
+
+DTO = Data Transfer Object
