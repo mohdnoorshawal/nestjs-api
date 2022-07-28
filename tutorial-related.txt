@@ -45,3 +45,9 @@ Flags
     nest g service prisma --no-spe
 
 DTO = Data Transfer Object
+
+Install Pipe's Class Validator & Class Transformer:
+    npm i --save class-validator class-transformer
+
+Install Argon2 for Password Hash:
+    npm add argon2
