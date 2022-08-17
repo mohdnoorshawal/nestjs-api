@@ -65,3 +65,10 @@ ALL SOFTWARE & TOOLS I HAVE LEARNED THROUGHOUT THIS TUTORIAL (Other than NestJS)
 3) ProgreSQL
 4) Insomnia - For API Testing
 5) Passport JS
+
+Command to add Passport into the project
+    npm install --save @nestjs/passport passport   
+
+Command to add JWT into the the project
+    npm install --save @nestjs/jwt passport-jwt
+    npm install --save-dev @types/passport-jwt
